@@ -8,8 +8,7 @@
             "name": "Rocky Debugger: Module",
             "type": "debugpy",
             "request": "launch",
-            "module": "{{cookiecutter.pkg_name}}",
-            "envFile": "${workspaceFolder}/.venv"
+            "module": "{{cookiecutter.pkg_name}}"
         }
     ]
 }
